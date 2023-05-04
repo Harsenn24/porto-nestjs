@@ -121,6 +121,8 @@ export class TreatmentService {
       },
     ]);
 
+    console.log('ok')
+
 
     if (result.length > 0) {
       return result[0];
